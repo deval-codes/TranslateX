@@ -4,7 +4,7 @@ import json
 from tenacity import retry, stop_after_attempt, wait_fixed
 
 # Configure the Gemini model
-genai.configure(api_key="AIzaSyAMCLjW0OO2vKiehO8FtVfy4aPHpUd-FJY")
+genai.configure(api_key="")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Retry logic for robust translation
